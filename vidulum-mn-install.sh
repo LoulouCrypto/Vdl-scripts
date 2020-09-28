@@ -2,8 +2,8 @@
 # Script updated by LoulouCrypto
 # https://www.louloucrypto.fr
 # If you want to support me
-# My fdr wallet : 
-# fYWa6E3gthATUF2rThr7TtBaVGa1dm7vR8
+# My vdl wallet : 
+# v1MYFzCiHPgbzFbesutnEwMs5Z37pACoVp4
 
 
 CONFIG_FILE='vidulum.conf'
