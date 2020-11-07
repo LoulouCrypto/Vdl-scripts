@@ -147,11 +147,11 @@ function create_config() {
   mkdir $PARAMFOLDER >/dev/null 2>&1
   echo "Downloading $COIN_NAME params"
   cd $PARAMFOLDER
-  wget https://github.com/vidulum/sapling-params/releases/download/sapling/sprout-proving.key >/dev/null 2>&1
-  wget https://github.com/vidulum/sapling-params/releases/download/sapling/sprout-verifying.key >/dev/null 2>&1
-  wget https://github.com/vidulum/sapling-params/releases/download/sapling/sprout-groth16.params >/dev/null 2>&1
-  wget https://github.com/vidulum/sapling-params/releases/download/sapling/sapling-spend.params >/dev/null 2>&1
-  wget https://github.com/vidulum/sapling-params/releases/download/sapling/sapling-output.params >/dev/null 2>&1
+  wget https://github.com/vidulum/sapling-params/releases/download/sapling/sprout-proving.key 
+  wget https://github.com/vidulum/sapling-params/releases/download/sapling/sprout-verifying.key 
+  wget https://github.com/vidulum/sapling-params/releases/download/sapling/sprout-groth16.params 
+  wget https://github.com/vidulum/sapling-params/releases/download/sapling/sapling-spend.params
+  wget https://github.com/vidulum/sapling-params/releases/download/sapling/sapling-output.params
   cd ..
   sleep 2
   RPCUSER=$(tr -cd '[:alnum:]' < /dev/urandom | fold -w10 | head -n1)
