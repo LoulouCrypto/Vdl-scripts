@@ -15,7 +15,7 @@ COIN_TGZ='https://github.com/vidulum/vidulum/releases/download/v2.1.0/VDL-Linux.
 BOOTSTRAP_TGZ='https://downloads.vidulum.app/bootstrap.zip'
 COIN_DAEMON="vidulumd"
 COIN_CLI="vidulum-cli"
-COIN_TX"vidulum-tx"
+COIN_TX="vidulum-tx"
 COIN_NAME='Vidulum'
 COIN_PORT=7676
 
