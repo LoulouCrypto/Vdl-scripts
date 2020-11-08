@@ -19,7 +19,7 @@ COIN_TX="vidulum-tx"
 COIN_NAME='Vidulum'
 COIN_PORT=7676
 
-NODEIP=$(curl -s4 icanhazip.com)
+NODEIP=$(curl -4 icanhazip.com)
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
