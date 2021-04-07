@@ -6,7 +6,7 @@ COIN_PATH='/usr/local/bin/'
 COIN_TGZ='https://github.com/vidulum/vidulum/releases/download/v2.2.0/VDL-Linux.zip'
 COIN_DAEMON="vidulumd"
 COIN_CLI="vidulum-cli"
-COIN_TX"vidulum-tx"
+COIN_TX="vidulum-tx"
 COIN_NAME='vidulum'
 
 #update lunch
