@@ -27,7 +27,7 @@ COIN_NAME='vidulum'
   killall $COIN_DAEMON > /dev/null 2>&1 
   echo -e "Updating $COIN_NAME"
   cp -pf $COIN_DAEMON $COIN_CLI $COIN_TX $COIN_PATH
-  cd ..
+  cd
   rm -f $COIN_ZIP >/dev/null 2>&1
   cd ~/ >/dev/null
   rm -rf $TMP_FOLDER >/dev/null 2>&1
