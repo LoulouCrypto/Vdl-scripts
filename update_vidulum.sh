@@ -3,7 +3,7 @@
 # https://www.louloucrypto.fr
 COIN_PATH='/usr/local/bin/'
 #64 bit only
-COIN_TGZ='https://github.com/vidulum/vidulum/releases/download/v2.1.0/VDL-Linux.zip'
+COIN_TGZ='https://github.com/vidulum/vidulum/releases/download/v2.2.0/VDL-Linux.zip'
 COIN_DAEMON="vidulumd"
 COIN_CLI="vidulum-cli"
 COIN_TX"vidulum-tx"
@@ -11,8 +11,8 @@ COIN_NAME='vidulum'
 
 #update lunch
   echo -e "Updating your System"
-apt-get update > /dev/null 2>&1
-apt-get upgrade -y > /dev/null 2>&1
+  apt-get update > /dev/null 2>&1
+  apt-get upgrade -y > /dev/null 2>&1
   echo -e "Prepare to download $COIN_NAME update"
   cd ~/
   TMP_FOLDER=$(mktemp -d)
