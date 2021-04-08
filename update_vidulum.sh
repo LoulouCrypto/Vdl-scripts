@@ -24,7 +24,7 @@ COIN_NAME='vidulum'
   chmod +x $COIN_DAEMON $COIN_CLI $COIN_TX
   echo -e "Stoping your VDL Nodes"
   systemctl stop Vidulum
-  systemctl stop vidulum*
+  systemctl stop vidulum-*
   $COIN_CLI stop > /dev/null 2>&1
   killall $COIN_DAEMON > /dev/null 2>&1 
   echo -e "Updating $COIN_NAME"
