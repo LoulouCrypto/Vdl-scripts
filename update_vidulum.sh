@@ -22,11 +22,13 @@ COIN_NAME='vidulum'
   unzip $COIN_ZIP >/dev/null 2>&1
   cd VDL-Linux
   chmod +x $COIN_DAEMON $COIN_CLI $COIN_TX
-  echo -e "Stoping your VDL Nodes"
+  echo -e "Stoping your VDL Nodes. Taking time "
   systemctl stop Vidulum
-  systemctl stop vidulum-*
+  sleep 30
+  systemctl stop vidulum-v*
+  Sleep 30
   $COIN_CLI stop > /dev/null 2>&1
-  killall $COIN_DAEMON > /dev/null 2>&1 
+  killall /usr/local/bin/$COIN_DAEMON > /dev/null 2>&1 
   echo -e "Updating $COIN_NAME"
   cp -pf $COIN_DAEMON $COIN_CLI $COIN_TX $COIN_PATH
   cd ..
@@ -36,7 +38,7 @@ COIN_NAME='vidulum'
   rm update_vidulum.sh
 
   systemctl start Vidulum >/dev/null 2>&1 && sleep 30
-  systemctl start vidulum-vdl*
+  systemctl start vidulum-*
   echo -e "Update Done, If you are using Multi VDL Mn, Please Lunch the others"
 $COIN_CLI getinfo
 exit
