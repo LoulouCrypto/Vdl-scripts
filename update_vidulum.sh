@@ -35,7 +35,7 @@ COIN_NAME='vidulum'
   rm -rf $TMP_FOLDER >/dev/null 2>&1
   rm update_vidulum.sh
 
-  systemctl stop Vidulum >/dev/null 2>&1 && sleep 30
+  systemctl start Vidulum >/dev/null 2>&1 && sleep 30
   echo -e "Update Done, If you are using Multi VDL Mn, Please Lunch the others"
 $COIN_CLI getinfo
 exit
