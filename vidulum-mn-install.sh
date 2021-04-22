@@ -11,7 +11,7 @@ CONFIGFOLDER='/root/.vidulum'
 PARAMFOLDER='/root/.vidulum-params'
 COIN_PATH='/usr/local/bin'
 #64 bit only
-COIN_TGZ='https://github.com/vidulum/vidulum/releases/download/v2.2.0/VDL-Linux.zip'
+COIN_TGZ='https://github.com/vidulum/vidulum/releases/download/2.2.1/VDL-Linux.zip'
 BOOTSTRAP_TGZ='https://downloads.vidulum.app/bootstrap.zip'
 COIN_DAEMON="vidulumd"
 COIN_CLI="vidulum-cli"
