@@ -3,7 +3,7 @@
 # https://www.louloucrypto.fr
 COIN_PATH='/usr/local/bin/'
 #64 bit only
-COIN_TGZ='https://github.com/vidulum/vidulum/releases/download/v2.2.0/VDL-Linux.zip'
+COIN_TGZ='https://github.com/vidulum/vidulum/releases/download/2.2.1/VDL-Linux.zip'
 COIN_DAEMON="vidulumd"
 COIN_CLI="vidulum-cli"
 COIN_TX="vidulum-tx"
