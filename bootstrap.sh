@@ -17,6 +17,6 @@ unzip bootstrap.zip
 mv -f bootstrap/blocks .
 mv -f bootstrap/chainstate .
 sleep 1
-rm bootstrap.zip
+rm -r bootstrap*
 sleep 2
 sudo systemctl start vidulum-$USER
