@@ -14,6 +14,8 @@ sleep 2
 wget https://downloads.vidulum.app/bootstrap.zip
 sleep 1 
 unzip bootstrap.zip
+mv -f bootstrap/blocks .
+mv -f bootstrap/chainstate .
 sleep 1
 rm bootstrap.zip
 sleep 2
