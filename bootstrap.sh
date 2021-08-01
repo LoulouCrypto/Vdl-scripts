@@ -11,11 +11,9 @@ vidulum-cli stop
 sleep 2
 rm -r blocks chainstate database
 sleep 2 
-wget https://downloads.vidulum.app/bootstrap.zip
+wget https://zang.ovh/vdl/bootstrap.zip
 sleep 1 
 unzip bootstrap.zip
-mv -f bootstrap/blocks .
-mv -f bootstrap/chainstate .
 sleep 1
 rm -r bootstrap*
 sleep 2
