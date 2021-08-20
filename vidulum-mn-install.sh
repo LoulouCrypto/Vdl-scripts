@@ -12,7 +12,7 @@ PARAMFOLDER='/root/.vidulum-params'
 COIN_PATH='/usr/local/bin'
 #64 bit only
 COIN_TGZ='https://github.com/vidulum/vidulum/releases/download/2.2.1/VDL-Linux.zip'
-BOOTSTRAP_TGZ='https://downloads.vidulum.app/bootstrap.zip'
+BOOTSTRAP_TGZ='zang.ovh/vdl/bootstrap.zip'
 COIN_DAEMON="vidulumd"
 COIN_CLI="vidulum-cli"
 COIN_TX="vidulum-tx"
@@ -222,9 +222,9 @@ EOF
   wget --progress=bar:force $BOOTSTRAP_TGZ 2>&1 | progressfilt
   echo -e "Extracting BootStrap"
   unzip bootstrap.zip >/dev/null 2>&1
-  rm -f bootstrap.zip
-  mv -f bootstrap/blocks $CONFIGFOLDER
-  mv -f bootstrap/chainstate $CONFIGFOLDER
+#  rm -f bootstrap.zip
+#  mv -f bootstrap/blocks $CONFIGFOLDER
+#  mv -f bootstrap/chainstate $CONFIGFOLDER
   sleep 2
 }
 
