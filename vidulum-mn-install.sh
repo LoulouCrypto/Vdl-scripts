@@ -222,7 +222,7 @@ EOF
   wget --progress=bar:force $BOOTSTRAP_TGZ 2>&1 | progressfilt
   echo -e "Extracting BootStrap"
   unzip bootstrap.zip >/dev/null 2>&1
-#  rm -f bootstrap.zip
+  rm -f bootstrap.zip
 #  mv -f bootstrap/blocks $CONFIGFOLDER
 #  mv -f bootstrap/chainstate $CONFIGFOLDER
   sleep 2
