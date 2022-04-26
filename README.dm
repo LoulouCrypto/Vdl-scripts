@@ -1,20 +1,4 @@
-Theses folowing scripts are use to install Vidulum MasterNodes
-
-To learn more about the project : https://www.vidulum.app/
-
-You can use thes to install on or multiple Masternodes on your Server.
-
--For X86_64 First install : You must be logged as root user and use this :
-
-bash vidulum-mn-install.sh
-
--For Multi-Masternode install: You have to have already installed the first Masternode and then, create a new sudo user and run :
-
-sudo ./vidulum-multi-install.sh
-
--To Update all your masternode : 
-
-sudo ./update_vidulum.sh
+Decrapited since Vidulum 2.0
 
 To support me :
 
